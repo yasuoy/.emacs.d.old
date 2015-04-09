@@ -1,0 +1,7 @@
+.DS_Store
+auto-save-list/
+elpa/archives/melpa
+elpa/archives/marmalade
+elpa/archives/gnu
+*.elc
+*.~
