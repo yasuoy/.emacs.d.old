@@ -1,0 +1,644 @@
+;;; -*- coding: utf-8 -*-
+(("/Users/yasuoy/"
+  (dired-filename . "/Users/yasuoy/_doc"))
+ ("/Users/yasuoy/_doc/"
+  (dired-filename . "/Users/yasuoy/_doc/WebTech.org"))
+ ("/Users/yasuoy/_doc/WebTech.org" . 279)
+ ("/Users/yasuoy/_programs/romluss3/source/javascripts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss3/source/javascripts/.."))
+ ("/Users/yasuoy/_programs/romluss3/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss3/source"))
+ ("/Users/yasuoy/_programs/romluss3/source/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss3/source/layouts"))
+ ("/Users/yasuoy/_programs/romluss3/source/layouts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss3/source/layouts/custom_layout.haml"))
+ ("/Users/yasuoy/_programs/romluss3/source/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss3/source/stylesheets/fractionslider.css"))
+ ("/Users/yasuoy/_programs/romluss3/source/javascripts/application.js" . 395)
+ ("/Users/yasuoy/_programs/romluss3/source/stylesheets/application.css.scss" . 2323)
+ ("/Users/yasuoy/_programs/romluss3/source/stylesheets/fractionslider.css" . 1369)
+ ("/Users/yasuoy/_programs/romluss3/source/index.haml.erb" . 3405)
+ ("/Users/yasuoy/_programs/romluss3/source/layouts/custom_layout.haml" . 3323)
+ ("/Users/yasuoy/.emacs.d/recentf" . 1803)
+ ("/Users/yasuoy/_programs/romluss2/source/layouts/custom_layout.haml" . 8162)
+ ("/Users/yasuoy/_programs/romluss/source/javascripts/application.js" . 70)
+ ("/Users/yasuoy/_programs/romluss2/source/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/source/stylesheets/.."))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss/foundation/_settings.scss" . 49494)
+ ("/Users/yasuoy/_programs/romluss2/source/index.haml.erb" . 3352)
+ ("/Users/yasuoy/_programs/romluss2/source/stylesheets/application.css.scss" . 900)
+ ("/Users/yasuoy/_programs/romluss2/source/javascripts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/source/javascripts/application.js"))
+ ("/Users/yasuoy/_programs/romluss2/source/javascripts/application.js" . 89)
+ ("/Users/yasuoy/_programs/romluss2/source/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/source/.."))
+ ("/Users/yasuoy/_programs/romluss2/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bundle/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bundle/.."))
+ ("/Users/yasuoy/_programs/romluss2/vendor/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/bower.json"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/src/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/src/core.js"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/src/core/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/jquery/src/core/access.js"))
+ ("/Users/yasuoy/_programs/romluss2/source/layouts/custom2_layout.haml" . 669)
+ ("/Users/yasuoy/_programs/romluss2/source/layouts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/source/layouts/custom_layout.haml"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss/foundation"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/foundation/scss/foundation/_settings.scss"))
+ ("/Users/yasuoy/_programs/romluss2/vendor/bower_components/normalize-scss/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/vendor/bower_components/normalize-scss/.bower.json"))
+ ("/Users/yasuoy/_programs/romluss2/source/stylesheets/core/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss2/source/stylesheets/core/base.scss"))
+ ("/Users/yasuoy/_programs/romluss/source/javascripts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/source/javascripts/all.js"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/_settings.scss" . 1989)
+ ("/Users/yasuoy/_programs/romluss/source/index.haml.erb" . 5435)
+ ("/Users/yasuoy/_programs/romluss/source/layouts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/source/layouts/.."))
+ ("/Users/yasuoy/_programs/romluss/source/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/source/javascripts"))
+ ("/Users/yasuoy/_programs/romluss/source/layouts/custom_layout.haml" . 229)
+ ("/Users/yasuoy/_programs/romluss/source/stylesheets/application.css.scss" . 207)
+ ("/Users/yasuoy/_programs/romluss-proto/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss-proto/public"))
+ ("/Users/yasuoy/_programs/romluss-proto/public/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss-proto/public/stylesheets/.."))
+ ("/Users/yasuoy/_programs/romluss-proto/public/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss-proto/public/index.html"))
+ ("/Users/yasuoy/_programs/romluss-proto/public/stylesheets/application.css" . 424)
+ ("/Users/yasuoy/_programs/romluss-proto/.git/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss-proto/.git/config"))
+ ("/Users/yasuoy/_programs/romluss-proto/.git/config" . 37)
+ ("/Users/yasuoy/_programs/romluss/build/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/build/index.html"))
+ ("/Users/yasuoy/_programs/romluss/build/index.html" . 119)
+ ("/Users/yasuoy/_programs/romluss/source/javascripts/modernizr_wrapper.js" . 35)
+ ("/Users/yasuoy/_programs/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bundle/ruby/2.1.0/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bundle/ruby/2.1.0/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bundle/ruby/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bundle/ruby/.."))
+ ("/Users/yasuoy/_doc/rbenv-bundler.org" . 450)
+ ("/Users/yasuoy/_programs/romluss/source/stylesheets/core/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/source/stylesheets/core/.."))
+ ("/Users/yasuoy/_doc/yu-dai.org" . 232)
+ ("/Users/yasuoy/_programs/romluss/source/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/source/stylesheets/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/components/_top-bar.scss" . 134)
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/components/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/components/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/css/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/css/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/fonts"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/fonts/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/fonts/FontAwesome.otf"))
+ ("/Users/yasuoy/_programs/romluss/config.rb" . 1690)
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/scss/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/scss/_bordered-pulled.scss"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/scss/_icons.scss" . 36839)
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/font-awesome/scss/font-awesome.scss" . 207)
+ ("/Users/yasuoy/_programs/romluss/.bowerrc" . 45)
+ ("/Users/yasuoy/_programs/romluss/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/node_modules"))
+ ("/Users/yasuoy/_programs/romluss/node_modules/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/node_modules/bower"))
+ ("/Users/yasuoy/_programs/romluss/node_modules/bower/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/node_modules/bower/package.json"))
+ ("/Users/yasuoy/_programs/romluss/node_modules/bower/package.json" . 2959)
+ ("/Users/yasuoy/_programs/romluss/vendor/bundle/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bundle/.."))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/css/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/css/foundation.css"))
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation.scss" . 1756)
+ ("/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/vendor/bower_components/foundation/scss/foundation/.."))
+ ("/Users/yasuoy/_programs/romluss/Gemfile" . 80)
+ ("/Users/yasuoy/_programs/romluss/.gitignore" . 16)
+ ("/Users/yasuoy/_programs/romluss/.bundle/"
+  (dired-filename . "/Users/yasuoy/_programs/romluss/.bundle/config"))
+ ("/Users/yasuoy/_programs/romluss/.bundle/config" . 27)
+ ("/Users/yasuoy/_doc/引越.org" . 50)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets/.."))
+ ("/ssh:vagrant@192.168.17.23:/home/vagrant/.zshrc" . 1552)
+ ("/ssh:vagrant@192.168.17.23:/home/vagrant/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/home/vagrant/.ansible"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/config/site.yml" . 1445)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/config/.."))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/views/pages/.."))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/views/.."))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/.."))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/javascripts/foundation.topbar.js"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/index.liquid.haml" . 1541)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/views/pages/index.liquid.haml" . 929)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/log"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/posts.liquid.haml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/foundation.js"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/foundation/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/foundation/components"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/foundation/components/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/foundation/components/_accordion.scss"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/8caa9b28269b75cd12e4bc3da8734c111feb84aa"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/8caa9b28269b75cd12e4bc3da8734c111feb84aa/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/8caa9b28269b75cd12e4bc3da8734c111feb84aa/application.css.scssc"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/6d4d6dc5160ff94966c93fdf79f7f67f2eb43115/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/6d4d6dc5160ff94966c93fdf79f7f67f2eb43115/_thumbs.scssc"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/162cd7122002d51208a61a628666d4b9a5c6be7b/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.sass-cache/162cd7122002d51208a61a628666d4b9a5c6be7b/_functions.scssc"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets/foundation/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets/foundation/components"))
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/stylesheets/foundation/components/_top-bar.scss" . 3188)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/public/javascripts/foundation.topbar.js" . 1282)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/app/content_types/" . 189)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/Gemfile" . 598)
+ ("/ssh:vagrant@192.168.17.23:/home/vagrant/.ansible/tmp/" . 171)
+ ("/ssh:vagrant@192.168.17.23:/vagrant_data/program/yu-dai/.gitignore" . 44)
+ ("/Users/yasuoy/Movies/"
+  (dired-filename . "/Users/yasuoy/Movies/.localized"))
+ ("/Users/yasuoy/.subversion/"
+  (dired-filename . "/Users/yasuoy/.subversion/README.txt"))
+ ("/Users/yasuoy/_vagrant/booth/"
+  (dired-filename . "/Users/yasuoy/_vagrant/booth/.."))
+ ("/Users/yasuoy/_vagrant/"
+  (dired-filename . "/Users/yasuoy/_vagrant/.."))
+ ("/Users/yasuoy/_ansible/"
+  (dired-filename . "/Users/yasuoy/_ansible/saddle"))
+ ("/Users/yasuoy/_ansible/saddle/"
+  (dired-filename . "/Users/yasuoy/_ansible/saddle/saddle.yml"))
+ ("/Users/yasuoy/_ansible/saddle/saddle.yml" . 5)
+ ("/ssh:vagrant@192.168.17.23:/home/vagrant/.emacs.d/"
+  (dired-filename . "/ssh:vagrant@192.168.17.23:/home/vagrant/.emacs.d/elpa"))
+ ("/Users/yasuoy/dotfiles/"
+  (dired-filename . "/Users/yasuoy/dotfiles/.zshrc"))
+ ("/Users/yasuoy/.emacs.d/"
+  (dired-filename . "/Users/yasuoy/.emacs.d/places"))
+ ("/Users/yasuoy/.emacs.d/elpa/"
+  (dired-filename . "/Users/yasuoy/.emacs.d/elpa/archives"))
+ ("/Users/yasuoy/dotfiles/.zshrc" . 1484)
+ ("/Users/yasuoy/_vagrant/booth/Vagrantfile" . 1861)
+ ("/Users/yasuoy/_ansible/saddle/host-saddle" . 2)
+ ("/Users/yasuoy/_vagrant/yu-dai/"
+  (dired-filename . "/Users/yasuoy/_vagrant/yu-dai/Vagrantfile"))
+ ("/Users/yasuoy/_vagrant/yu-dai/Vagrantfile" . 561)
+ ("/Users/yasuoy/_vagrant/yu-dai/.vagrant/"
+  (dired-filename . "/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines"))
+ ("/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/"
+  (dired-filename . "/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/node21"))
+ ("/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/node21/"
+  (dired-filename . "/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/node21/virtualbox"))
+ ("/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/node21/virtualbox/"
+  (dired-filename . "/Users/yasuoy/_vagrant/yu-dai/.vagrant/machines/node21/virtualbox/action_provision"))
+ ("/Users/yasuoy/_doc/Business.org" . 356)
+ ("/Users/yasuoy/_doc/foundation.org" . 3710)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/about.liquid.haml" . 1371)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/content_types/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/content_types/posts.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/data/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/data/posts.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/data/posts.yml" . 2)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/content_types/posts.yml" . 1687)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/posts.liquid.haml" . 1473)
+ ("/Users/yasuoy/_programs/compass_lessons/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/compass_lessons/stylesheets/main.css"))
+ ("/Users/yasuoy/_programs/compass_lessons/sass/main.scss" . 30)
+ ("/Users/yasuoy/_programs/compass_lessons/sass/"
+  (dired-filename . "/Users/yasuoy/_programs/compass_lessons/sass/.."))
+ ("/Users/yasuoy/_programs/compass_lessons/"
+  (dired-filename . "/Users/yasuoy/_programs/compass_lessons/.."))
+ ("/Users/yasuoy/.emacs.d/init.el" . 4248)
+ ("/Users/yasuoy/.emacs.d/url/cookies" . 446)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/job.liquid.haml" . 57)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/config/translations.yml"))
+ ("/Users/yasuoy/_programs/ftest/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/scss"))
+ ("/Users/yasuoy/_programs/ftest/scss/app.scss" . 1565)
+ ("/Users/yasuoy/_programs/ftest/scss/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/scss/app.scss"))
+ ("/Users/yasuoy/_programs/ftest/test.html" . 684)
+ ("/Users/yasuoy/_programs/ftest/scss/_settings.scss" . 50552)
+ ("/Users/yasuoy/_programs/ftest/bower_components/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/css"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/css/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/css/foundation.css"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/foundation"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/foundation/components"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/foundation/components/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/scss/foundation/components/_accordion.scss"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/js/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/js/vendor"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/js/vendor/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/js/vendor/fastclick.js"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/js/foundation/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/bower_components/foundation/js/foundation/foundation.magellan.js"))
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/js/foundation/foundation.magellan.js" . 6086)
+ ("/Users/yasuoy/_programs/ftest/bower_components/foundation/js/foundation.js" . 8072)
+ ("/Users/yasuoy/_programs/ftest/stylesheets/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/stylesheets/app.css"))
+ ("/Users/yasuoy/_programs/ftest/js/"
+  (dired-filename . "/Users/yasuoy/_programs/ftest/js/app.js"))
+ ("/Users/yasuoy/.emacs.d/elpa/direx-20150315.302/direx-autoloads.el" . 787)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/config/translations.yml" . 383)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/javascripts/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/routes.rb" . 1562)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/contact.liquid.haml" . 59)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/snippets/" . 194)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/snippets/_footer.liquid.haml" . 25)
+ ("/Users/yasuoy/.rbenv/"
+  (dired-filename . "/Users/yasuoy/.rbenv/shims"))
+ ("/Users/yasuoy/_programs/emmet.html" . 728)
+ ("/Users/yasuoy/_ansible/macbookpro/macbookpro.yml" . 804)
+ ("/Users/yasuoy/.zsh/"
+  (dired-filename . "/Users/yasuoy/.zsh/antigen"))
+ ("/Users/yasuoy/_ansible/macbookpro/"
+  (dired-filename . "/Users/yasuoy/_ansible/macbookpro/macbookpro.yml"))
+ ("/Users/yasuoy/.emacs.d/elpa/emmet-mode-20150410.803/emmet-mode-autoloads.el" . 1556)
+ ("/Users/yasuoy/_programs/slider/"
+  (dired-filename . "/Users/yasuoy/_programs/slider/.."))
+ ("/Users/yasuoy/_programs/LinkInPage/"
+  (dired-filename . "/Users/yasuoy/_programs/LinkInPage/.."))
+ ("/Users/yasuoy/_programs/LinkInPage/index.html" . 120)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/vendor/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/vendor/custom.modernizr.js"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/foundation/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/javascripts/foundation/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/public/stylesheets/application.css.scss" . 92)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/yu-dai/app/views/pages/business.liquid.haml" . 57)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/log/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/log/wagon.log"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/log/wagon.log" . 17558)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/index.liquid.haml" . 2030)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/images"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/stylesheets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/stylesheets/application.css.scss"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/stylesheets/application.css.scss" . 206)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/top.liquid.haml" . 16)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/config/deploy.yml" . 305)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/config/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/environments/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/environments/production.rb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/environments/production.rb" . 674)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/application.rb" . 47)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/index.liquid.haml.orig" . 38)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/pages/base.liquid.haml" . 33)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/content_types/" . 193)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/index.liquid"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/index.liquid" . 1450)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/snippets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/snippets/footer.liquid.haml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/app/views/snippets/footer.liquid.haml" . 61)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/config/.."))
+ ("/Users/yasuoy/.emacs.d/elpa/haml-mode-20150420.1125/haml-mode-autoloads.el" . 436)
+ ("/Users/yasuoy/.emacs.d/elpa/web-mode-20150423.234/web-mode-autoloads.el" . 354)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/javascripts/bootstrap/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/javascripts/bootstrap/affix.js"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/stylesheets/bootstrap/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/public/stylesheets/bootstrap/_alerts.scss"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/lockon/.gitignore" . 43)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/Gemfile" . 12)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/initializers/locomotive.rb" . 3594)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/initializers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/initializers/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/images/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/images/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/samples/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/samples/pages/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/samples/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/samples/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/javascripts/bootstrap/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/javascripts/bootstrap/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/javascripts/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/public/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/about.liquid" . 1590)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/contact.liquid" . 1022)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/contact.ja.liquid" . 58)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/posts.ja.liquid" . 58)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/app/views/pages/index.ja.liquid" . 28)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/.git/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/.git/branches"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/data/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/data/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/log/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/log/wagon.log"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/initializers/carrierwave.rb" . 566)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/mongoid.yml" . 370)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config/deploy.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/content_types/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/content_types/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/content_types"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.gem/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.gem/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/log/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/log/development.log"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/tasks"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/tasks/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/tasks/.gitkeep"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/assets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/lib/assets/.gitkeep"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/doc/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/doc/README_FOR_APP"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/mailers"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/mailers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/mailers/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/assets"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/assets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/assets/javascripts"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/assets/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/assets/javascripts/.gitkeep"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/plugins/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/vendor/plugins/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/sites"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/sites/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/sites/552ba4509e1a301f67000002"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/db/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/db/seeds.rb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/controllers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/controllers/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/models/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/models/.gitkeep"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/views/layouts"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/views/layouts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/views/layouts/application.html.erb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/Gemfile" . 67)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for_wanderers/config/site.yml" . 346)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/models/locomotive/content_entry.rb" . 7731)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/config/locales/formtastic.en.yml" . 1003)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive/public"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive/public/content_entries_controller.rb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/controllers/locomotive/public/content_entries_controller.rb" . 516)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/mailers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/mailers/locomotive"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/mailers/locomotive/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/.rbenv/versions/2.0.0-p643/lib/ruby/gems/2.0.0/gems/locomotive_cms-2.5.6/app/mailers/locomotive/notifications.rb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/script/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/script/rails"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/assets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/public/assets/aloha"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/locales/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/locales/ja.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/.sass-cache/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/.sass-cache/40b796e11caa59402069df21911fd1c766ad594c"))
+ ("/ssh:vagrant@192.168.17.21:/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home"))
+ ("/ssh:vagrant@192.168.17.21:/home/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/config/environments/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/config/environments/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/config/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/Gemfile"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/Gemfile" . 479)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/rails4_application_development_guide_sample/10/book_library/config/environments/development.rb" . 1414)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/config/environments/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/config/environments/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/config/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app/mailers"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app/mailers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app/mailers/authentication_mailer.rb"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/app/mailers/authentication_mailer.rb" . 161)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/Gemfile" . 412)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/mailtest/config/environments/development.rb" . 1028)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/environments/development.rb" . 769)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/initializers/devise.rb" . 6096)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config/deploy.yml" . 690)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/contact.liquid"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/contact.liquid" . 60)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/locales/ja.yml" . 612)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/config/site.yml" . 18)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/config/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/config/deploy.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/config/deploy.yml" . 148)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/assets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/acme_cms/app/assets/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts.liquid" . 63)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/data/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/data/photos.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config/translations.yml" . 190)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/index.ja.liquid" . 183)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/about.ja.liquid" . 319)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/about.liquid" . 556)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/snippets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/snippets/footer.liquid"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/snippets/footer.liquid" . 318)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/content_types/posts.yml" . 119)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts/content_type_template.ja.liquid" . 74)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/index.liquid" . 4027)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts/content_type_template.liquid" . 143)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/content_types/photos.yml" . 1368)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/posts.ja.liquid" . 58)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config/site.yml" . 1729)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/404.ja.liquid" . 144)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/stylesheets"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/stylesheets/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/stylesheets/styles.css"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/stylesheets/styles.css" . 1627)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/pages/404.liquid" . 191)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/log/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/log/wagon.log"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/log/wagon.log" . 95651)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/config"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/content_types/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/content_types/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/views/pages"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/my_first_site/app/views/pages/404.liquid"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/javascripts/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/javascripts/bootstrap.min.js"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/stylesheets/fonts.css" . 947)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/snippets/img_box.liquid" . 132)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/public/javascripts/main.js" . 1186)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/app/views/snippets/pagination.liquid" . 529)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/wisdom_for-wanderers/.gitignore" . 43)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/config/site.yml" . 732)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/content_types/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/content_types/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/pages"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/pages/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/pages/.."))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/pages/products.liquid" . 246)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/data/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/data/products.yml"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/data/products.yml" . 302)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/content_types/products.yml" . 1433)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/public/"
+  (dired-filename . "/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/public/stylesheets"))
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/public/stylesheets/" . 258)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/public/stylesheets/style.css" . 2)
+ ("/ssh:vagrant@192.168.17.21:/home/vagrant/workspace/acme_corp/app/views/pages/index.liquid" . 696)
+ ("/Users/yasuoy/.emacs.d/elpa/w3m-20150406.318/w3m-autoloads.el" . 16981)
+ ("/Users/yasuoy/.emacs.d/elpa/markdown-mode-20150121.1229/markdown-mode-autoloads.el" . 694)
+ ("/ssh:vagrant@192.168.17.11:/home/vagrant/"
+  (dired-filename . "/ssh:vagrant@192.168.17.11:/home/vagrant/.bashrc"))
+ ("/Users/yasuoy/.viminfo" . 85)
+ ("/ssh:root@192.168.17.21:/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var"))
+ ("/ssh:root@192.168.17.21:/var/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www"))
+ ("/ssh:root@192.168.17.21:/var/www/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html"))
+ ("/ssh:root@192.168.17.21:/var/www/html/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude-yudai/style.css" . 116)
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude-yudai/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude-yudai/header.php"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/functions/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/functions/.."))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/index.php" . 452)
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/structure/content-extensions.php" . 259)
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/structure/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/structure/.."))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/library/.."))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/content-nosidebar.php"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/attitude/content-nosidebar.php" . 462)
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive-yudai/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive-yudai/style.css"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core/css"))
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core/css/style.css" . 18687)
+ ("/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core/css/"
+  (dired-filename . "/ssh:root@192.168.17.21:/var/www/html/wordpress/wp-content/themes/responsive/core/css/style.css")))
