@@ -1,0 +1,695 @@
+#+TITLE: Emacs設定
+#+OPTIONS: toc:2 num:nil ^:nil
+* Language
+  #+BEGIN_SRC emacs-lisp
+    (set-language-environment 'Japanese)
+    ;; Coding system
+    (set-default-coding-systems 'utf-8)
+    (set-keyboard-coding-system 'utf-8)
+    (set-terminal-coding-system 'utf-8)
+    (set-buffer-file-coding-system 'utf-8)
+    (prefer-coding-system 'utf-8)
+  #+END_SRC
+* Load Path
+** OS
+    <2016-09-10 Sat> gpg using mew
+    #+BEGIN_SRC emacs-lisp
+      (add-to-list 'exec-path "/usr/local/bin")
+    #+END_SRC
+** elisp
+    #+BEGIN_SRC emacs-lisp
+      (add-to-list 'load-path "~/.emacs.d/elisp")
+    #+END_SRC
+** package
+    #+BEGIN_SRC emacs-lisp
+      (require 'package)
+      (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
+      (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+      (package-initialize)
+      (require 'use-package)
+    #+END_SRC
+** exec path from shell
+    #+BEGIN_SRC emacs-lisp
+      (use-package exec-path-from-shell
+        :config
+        (exec-path-from-shell-initialize)
+        )
+    #+END_SRC
+* Font -> Ricty
+  #+BEGIN_SRC emacs-lisp
+    (create-fontset-from-ascii-font "Ricty-14:weight=normal:slant=normal" nil "ricty")
+    (set-fontset-font "fontset-ricty"
+                      'unicode
+                      (font-spec :family "Ricty" :size 14)
+                      nil
+                      'append)
+    (add-to-list 'default-frame-alist '(font . "fontset-ricty"))
+  #+END_SRC
+* General Settings
+  #+BEGIN_SRC emacs-lisp
+    ;; 自動バックアップをしない
+    (setq make-backup-files nil)
+    ;; 行番号 / fringe
+    (global-linum-mode t)
+    (set-face-attribute 'linum nil :foreground "red" :height 1.0)
+    (setq linum-format "%3d")
+    ;;; 右から左に読む言語に対応させないことで描画高速化
+    (setq-default bidi-display-reordering nil)
+    ;;; 同じ内容を履歴に記録しないようにする
+    (setq history-delete-duplicates t)
+    ;;; C-u C-SPC C-SPC...でどんどん過去のマークに遡る
+    (setq set-mark-command-repeat-pop t)
+    ;;; 複数のディレクトリで同じファイル名のファイルを開いたときのバッファ名を調整する
+    (use-package uniquify
+      :config
+      ;; filename<dir>形式のバッファ名にする
+      (setq uniquify-buffer-name-style 'post-forward-angle-brackets)
+      (setq uniquify-ignore-buffers-re "*[^*]+*"))
+    ;;; ファイルを開いた位置を保存する
+    (use-package saveplace
+      :config
+      (setq-default save-place t)
+      (setq save-place-file (concat user-emacs-directory "places")))
+    ;;; 釣合う括弧をハイライトする
+    (show-paren-mode 1)
+    ;;; インデントにTABを使わないようにする
+    (setq-default indent-tabs-mode nil)
+    ;;; 現在行に色をつける
+    (global-hl-line-mode 1)
+    ;;; ミニバッファ履歴を次回Emacs起動時にも保存する
+    (savehist-mode 1)
+    ;;; モードラインに時刻を表示する
+    (display-time)
+    ;;; 行番号・桁番号を表示する
+    (line-number-mode 1)
+    (column-number-mode 1)
+    ;;; GCを減らして軽くする
+    (setq gc-cons-threshold (* 10 gc-cons-threshold))
+    ;;; ログの記録行数を増やす
+    (setq message-log-max 10000)
+    ;;; 履歴をたくさん保存する
+    (setq history-length 1000)
+    ;;; splash screenを無効にする
+    (setq inhibit-splash-screen t)
+    ;;; メニューバーとツールバーとスクロールバーを消す
+    (menu-bar-mode -1)
+    (tool-bar-mode -1)
+    (scroll-bar-mode -1)
+    ;; テーマ
+    ;;(load-theme 'adwaita' t)
+    (load-theme 'misterioso' t)
+    ;; Bell (turn off)
+    (setq visible-bell t)
+    (setq ring-bell-function 'ignore)
+    ;; 透明化
+    ;(if window-system (progn (set-frame-parameter nil 'alpha 95)))
+    (setq scroll-step 1)
+    ;;; リージョンの大文字小文字変換を有効にする。
+    ;; C-x C-u -> upcase
+    ;; C-x C-l -> downcase
+    (put 'upcase-region 'disabled nil)
+    (put 'downcase-region 'disabled nil)
+    ;; auto-revert
+    ;(global-auto-revert-mode 1)
+    ;; .zipで終わるファイルをZキーで展開できるように
+    ;; (add-to-list 'dired-compress-file-suffixes '("\\.zip\\'" ".zip" "unzip"))
+  #+END_SRC
+* Key Bindings
+  #+BEGIN_SRC emacs-lisp
+    (global-set-key (kbd "C-h") 'delete-backward-char)
+    (define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
+    (global-set-key "\C-z" 'dabbrev-completion)
+    (global-set-key (kbd "C-c r") 'query-replace)
+    (global-set-key (kbd "<f7>") 'toggle-truncate-lines)
+    (global-set-key "\C-xp" (lambda () (interactive) (other-window -1)))
+    ;; Mac でコマンドキーをメタキーにする
+    (setq ns-command-modifier (quote meta))
+    (setq ns-alternate-modifier (quote super))
+    ;; スクリーンの最大化
+    (global-set-key (kbd "C-`") 'toggle-frame-maximized)
+    ;; magit
+    (global-set-key (kbd "C-x g") 'magit-status)
+    (global-set-key (kbd "C-\\") 'neotree-toggle)
+    ;; (global-set-key [f5] 'neotree-toggle)
+  #+END_SRC
+* Email / Mew / it's not package!
+** 基本設定
+    #+BEGIN_SRC emacs-lisp
+      (autoload 'mew "mew" nil t)
+      (autoload 'mew-send "mew" nil t)
+      ;; Optional setup (Read Mail menu):
+      (setq read-mail-command 'mew)
+      ;; Optional setup (e.g. C-xm for sending a message):
+      (autoload 'mew-user-agent-compose "mew" nil t)
+      (if (boundp 'mail-user-agent)
+          (setq mail-user-agent 'mew-user-agent))
+      (if (fboundp 'define-mail-user-agent)
+          (define-mail-user-agent
+            'mew-user-agent
+            'mew-user-agent-compose
+            'mew-draft-send-message
+            'mew-draft-kill
+            'mew-send-hook))
+    #+END_SRC
+** アカウント情報
+    #+BEGIN_SRC emacs-lisp
+      (setq mew-name "Yasuo Yoshihara")
+      (setq mew-user "yasuoy")
+      (setq mew-mail-domain "lambda-consulting.jp")
+      (setq mew-pop-user "yasuoy@lambda-consulting.jp")
+      ;; (setq mew-pop-server "pop13.gmoserver.jp")
+      ;; (setq mew-pop-auth 'pass)
+      ;; (setq mew-pop-delete nil)
+      (setq mew-proto "%")
+      (setq mew-imap-user "yasuoy@lambda-consulting.jp")
+      (setq mew-imap-server "imap13.gmoserver.jp")
+      (setq mew-use-cached-passwd t)
+      (setq mew-use-master-passwd t)
+      (setq mew-smtp-server "smtp13.gmoserver.jp")
+      (setq mew-smtp-port 587)
+      (setq mew-fcc "%Sent Messages")
+      (setq mew-smtp-user "yasuoy@lambda-consulting.jp")
+      (setq mew-smtp-mail-from "yasuoy@lambda-consulting.jp")
+    #+END_SRC
+** サマリに曜日を表示する
+    #+BEGIN_SRC emacs-lisp
+      (defun mew-summary-form-youbi ()
+        (let ((s (MEW-DATE)))
+          (if (>= (length s) 3) (setq s (substring s 0 3)))
+          (cond
+           ((string= s "Mon") "月")
+           ((string= s "Tue") "火")
+           ((string= s "Wed") "水")
+           ((string= s "Thu") "木")
+           ((string= s "Fri") "金")
+           ((string= s "Sat") "土")
+           ((string= s "Sun") "日")
+           (t "??"))))
+      (setq mew-summary-form
+            '(type
+              (4 year)
+              "/"
+              (5 date)
+              "(" (2 youbi) ")"
+              " "
+              (-4 time)
+              " | "
+              (30 from)
+              " | "
+              (50 subj)
+              t
+              " | "
+              (0 body)))
+
+      ;; (setq mew-summary-scan-width 78)
+    #+END_SRC
+* company
+  #+BEGIN_SRC emacs-lisp
+    (global-company-mode +1)
+    ;; 自動補完を offにしたい場合は, company-idle-delayを nilに設定する
+    ;; auto-completeでいうところの ac-auto-start にあたる.
+    ;; (custom-set-variables
+    ;;  '(company-idle-delay nil))
+    (set-face-attribute 'company-tooltip nil
+                        :foreground "black" :background "lightgrey")
+    (set-face-attribute 'company-tooltip-common nil
+                        :foreground "black" :background "lightgrey")
+    (set-face-attribute 'company-tooltip-common-selection nil
+                        :foreground "white" :background "steelblue")
+    (set-face-attribute 'company-tooltip-selection nil
+                        :foreground "black" :background "steelblue")
+    (set-face-attribute 'company-preview-common nil
+                        :background nil :foreground "lightgrey" :underline t)
+    (set-face-attribute 'company-scrollbar-fg nil
+                        :background "orange")
+    (set-face-attribute 'company-scrollbar-bg nil
+                        :background "gray40")
+    (global-set-key (kbd "C-M-i") 'company-complete)
+
+    ;; C-n, C-pで補完候補を次/前の候補を選択
+    (define-key company-active-map (kbd "C-n") 'company-select-next)
+    (define-key company-active-map (kbd "C-p") 'company-select-previous)
+    (define-key company-search-map (kbd "C-n") 'company-select-next)
+    (define-key company-search-map (kbd "C-p") 'company-select-previous)
+
+    ;; C-sで絞り込む
+    (define-key company-active-map (kbd "C-s") 'company-filter-candidates)
+
+    ;; TABで候補を設定
+    (define-key company-active-map (kbd "C-i") 'company-complete-selection)
+
+    ;; 各種メジャーモードでも C-M-iで company-modeの補完を使う
+    (define-key emacs-lisp-mode-map (kbd "C-M-i") 'company-complete)
+
+    ;; helm-company
+    (eval-after-load 'company
+      '(progn
+         (define-key company-mode-map (kbd "C-:") 'helm-company)
+         (define-key company-active-map (kbd "C-:") 'helm-company)))
+  #+END_SRC
+* migemo
+  #+BEGIN_SRC emacs-lisp
+    (use-package migemo
+      :if (executable-find "cmigemo")
+      :config
+      (setq migemo-options '("-q" "--emacs"))
+      (setq migemo-user-dictionary nil)
+      (setq migemo-regex-dictionary nil)
+      (setq migemo-coding-system 'utf-8-unix)
+      (load-library "migemo")
+      (migemo-init)
+      (setq migemo-command "/usr/local/bin/cmigemo")
+      (setq migemo-dictionary "/usr/local/share/migemo/utf-8/migemo-dict"))
+  #+END_SRC
+* helm
+  #+BEGIN_SRC emacs-lisp
+    (use-package helm-config
+      :config
+      (helm-mode 1)
+      (define-key global-map (kbd "M-x") 'helm-M-x)
+      (define-key global-map (kbd "M-y") 'helm-show-kill-ring)
+      (define-key global-map (kbd "C-x C-r") 'helm-recentf)
+      (define-key global-map (kbd "C-x b") 'helm-for-files)
+      (define-key global-map (kbd "C-M-h") 'helm-apropos)
+      (define-key helm-map (kbd "C-h") 'delete-backward-char)
+      (define-key helm-find-files-map (kbd "C-h") 'delete-backward-char)
+      (define-key helm-read-file-map (kbd "TAB") 'helm-execute-persistent-action)
+      (define-key helm-find-files-map (kbd "TAB") 'helm-execute-persistent-action)
+      (setq recentf-max-saved-items 500))
+      (helm-migemo-mode 1)
+  #+END_SRC
+* SDIC / Dictionary / it's not package!
+  #+BEGIN_SRC emacs-lisp
+    (autoload 'sdic-describe-word "sdic" "search word" t nil)
+    (global-set-key "\C-cw" 'sdic-describe-word)
+    (autoload 'sdic-describe-word-at-point "sdic" "カーソル位置の英単語の意味を調べる" t nil)
+    (global-set-key "\C-cW" 'sdic-describe-word-at-point)
+    (eval-after-load "sdic"
+      '(progn
+         (setq sdicf-array-command "/usr/local/bin/sary") ; コマンドパス
+         (setq sdic-eiwa-dictionary-list
+               '((sdicf-client "~/.emacs.d/dict/eijiro.sdic" (strategy array)))
+               sdic-waei-dictionary-list
+               '((sdicf-client "~/.emacs.d/dict/waeijiro.sdic" (strategy array))))
+
+         ;; saryを直接使用できるように sdicf.el 内に定義されているarrayコマンド用関数を強制的に置換
+         (fset 'sdicf-array-init 'sdicf-common-init)
+         (fset 'sdicf-array-quit 'sdicf-common-quit)
+         (fset 'sdicf-array-search
+               (lambda (sdic pattern &optional case regexp)
+                 (sdicf-array-init sdic)
+                 (if regexp
+                     (signal 'sdicf-invalid-method '(regexp))
+                   (save-excursion
+                     (set-buffer (sdicf-get-buffer sdic))
+                     (delete-region (point-min) (point-max))
+                     (apply 'sdicf-call-process
+                            sdicf-array-command
+                            (sdicf-get-coding-system sdic)
+                            nil t nil
+                            (if case
+                                (list "-i" pattern (sdicf-get-filename sdic))
+                              (list pattern (sdicf-get-filename sdic))))
+                     (goto-char (point-min))
+                     (let (entries)
+                       (while (not (eobp)) (sdicf-search-internal))
+                       (nreverse entries))))))
+
+         (defadvice sdic-forward-item (after sdic-forward-item-always-top activate)
+           (recenter 0))
+         (defadvice sdic-backward-item (after sdic-backward-item-always-top activate)
+           (recenter 0))))
+    (setq sdic-default-coding-system 'utf-8-unix)
+  #+END_SRC
+* Ruby
+  #+BEGIN_SRC emacs-lisp
+    (autoload 'flycheck-mode "flycheck")
+    (add-hook 'ruby-mode-hook 'flycheck-mode)
+    (setq flycheck-check-syntax-automatically '(idle-change mode-enabled new-line save))
+    (require 'inf-ruby)
+    (setq inf-ruby-default-implementation "pry")
+    (setq inf-ruby-eval-binding "Pry.toplevel_binding")
+    (add-hook 'inf-ruby-mode-hook 'ansi-color-for-comint-mode-on)
+  #+END_SRC
+* Rails / Projectile
+  #+BEGIN_SRC emacs-lisp
+    (use-package projectile
+      :config
+      (projectile-global-mode))
+    (use-package projectile-rails
+      :config
+      (add-hook 'projectile-mode-hook 'projectile-rails-on)
+      (setq projectile-completion-system 'helm)
+      (helm-projectile-on))
+  #+End_SRC
+
+* coffee-mode
+  #+BEGIN_SRC emacs-lisp
+    (defun coffee-custom ()
+      "coffee-mode-hook"
+      (and (set (make-local-variable 'tab-width) 2)
+           (set (make-local-variable 'coffee-tab-width) 2))
+      )
+    (add-hook 'coffee-mode-hook
+              '(lambda() (coffee-custom)))
+  #+END_SRC
+* org-mode
+  #+BEGIN_SRC emacs-lisp
+    (setq org-src-fontify-natively t)
+    (global-set-key (kbd "C-c a") 'org-agenda)
+    (setq org-agenda-files '("/Users/yasuoy/Dropbox/Doc/todo.org"))
+
+    ;; org-bullet
+    (require 'org-bullets)
+    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+
+    (org-babel-do-load-languages
+     'org-babel-load-languages
+     '((R . t)
+       (emacs-lisp . t)
+       (haskell . t)
+       (python . t)
+       (ruby . t)
+       (screen . t)
+       (sh . t)
+       (sqlite . t)
+       (perl . t)))
+  #+END_SRC
+* web-mode
+  #+BEGIN_SRC emacs-lisp
+    (defun my-web-mode-hook ()
+      "Hooks for Web mode."
+      (setq web-mode-markup-indent-offset 2)
+      (setq web-mode-code-indent-offset 2)
+    )
+    (add-hook 'web-mode-hook  'my-web-mode-hook)
+  #+END_SRC
+* dired <- comment out!, instead use neotree
+  #+BEGIN_SRC emacs-lisp
+    ;; (require 'dired-subtree)
+    ;; ;;; iを置き換え
+    ;; (define-key dired-mode-map (kbd "i") 'dired-subtree-insert)
+    ;; ;;; org-modeのようにTABで折り畳む
+    ;; (define-key dired-mode-map (kbd "<tab>") 'dired-subtree-remove)
+    ;; ;;; C-x n nでsubtreeにナローイング
+    ;; (define-key dired-mode-map (kbd "C-x n n") 'dired-subtree-narrow)
+
+    ;; ;;; ファイル名以外の情報を(と)で隠したり表示したり
+    ;; (require 'dired-details)
+    ;; (dired-details-install)
+    ;; (setq dired-details-hidden-string "")
+    ;; (setq dired-details-hide-link-targets nil)
+    ;; (setq dired-details-initially-hide nil)
+
+    ;; ;;; dired-subtreeをdired-detailsに対応させる
+    ;; (defun dired-subtree-after-insert-hook--dired-details ()
+    ;;   (dired-details-delete-overlays)
+    ;;   (dired-details-activate))
+    ;; (add-hook 'dired-subtree-after-insert-hook
+    ;;           'dired-subtree-after-insert-hook--dired-details)
+
+    ;; ;; find-dired対応
+    ;; (defadvice find-dired-sentinel (after dired-details (proc state) activate)
+    ;;   (ignore-errors
+    ;;     (with-current-buffer (process-buffer proc)
+    ;;       (dired-details-activate))))
+    ;; ;; (progn (ad-disable-advice 'find-dired-sentinel 'after 'dired-details) (ad-update 'find-dired-sentinel))
+
+    ;; ;;; [2014-12-30 Tue]^をdired-subtreeに対応させる
+    ;; (defun dired-subtree-up-dwim (&optional arg)
+    ;;   "subtreeの親ディレクトリに移動。そうでなければ親ディレクトリを開く(^の挙動)。"
+    ;;   (interactive "p")
+    ;;   (or (dired-subtree-up arg)
+    ;;       (dired-up-directory)))
+    ;; (define-key dired-mode-map (kbd "^") 'dired-subtree-up-dwim)
+
+    ;; (global-set-key (kbd "<f5>") 'dired-toggle)
+  #+END_SRC
+* neotree
+  #+BEGIN_SRC emacs-lisp
+    ;; 隠しファイルをデフォルトで表示
+    (setq neo-show-hidden-files t)
+    ;; neotree でファイルを新規作成した後、自動的にファイルを開く
+    (setq neo-create-file-auto-open t)
+    ;; delete-other-window で neotree ウィンドウを消さない
+    (setq neo-persist-show t)
+    ;; キーバインドをシンプルにする
+    (setq neo-keymap-style 'concise)
+    ;; neotree ウィンドウを表示する毎に current file のあるディレクトリを表示する
+    (setq neo-smart-open t)
+    ;; たぶんまだ動かない https://github.com/jaypei/emacs-neotree/issues/105
+    (setq neo-vc-integration '(face char))
+    ;; popwin との共存
+    (when neo-persist-show
+      (add-hook 'popwin:before-popup-hook
+                (lambda () (setq neo-persist-show nil)))
+      (add-hook 'popwin:after-popup-hook
+                (lambda () (setq neo-persist-show t))))
+  #+END_SRC
+* winner-mode / ウィンドウ構成の復元
+  #+BEGIN_SRC emacs-lisp
+    (winner-mode)
+    (global-set-key (kbd "C-x <left>") 'winner-undo)
+    (global-set-key (kbd "C-x <right>") 'winner-redo)
+  #+END_SRC
+* Markdown-mode
+  #+BEGIN_SRC emacs-lisp
+    (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
+    (setq auto-mode-alist (cons '("\\.markdown" . markdown-mode) auto-mode-alist))
+    (setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+  #+END_SRC
+* DDSKK
+  #+BEGIN_SRC emacs-lisp
+    ;; (when (require 'skk nil t)
+    ;;   (global-set-key (kbd "C-x j") 'skk-auto-fill-mode) ;;良い感じに改行を自入力してくれる機能
+    ;;   (setq default-input-method "japanese-skk")         ;;emacs上での日本語入力にskkをつかう
+    ;;   (require 'skk-study))                              ;;変換学習機能の追加
+    ;; ;(setq skk-use-azik t)
+    ;; (setq skk-sticky-key ";")
+  #+END_SRC
+* yasnipet
+  #+BEGIN_SRC emacs-lisp
+    (yas-global-mode 1)
+    ;;; スニペット名をidoで選択する
+    (setq yas-prompt-functions '(yas-ido-prompt))
+
+    (add-to-list 'auto-mode-alist '("\\.coffee.erb\\'". coffee-mode))
+
+    (add-to-list 'auto-mode-alist '("\\.jsx\\'" . jsx-mode))
+    (autoload 'jsx-mode "jsx-mode" "JSX mode" t)
+    (add-hook 'jsx-mode-hook '(lambda () (setq jsx-indent-level 2)))
+  #+END_SRC
+* term+ / term+mux
+  #+BEGIN_SRC emacs-lisp
+    (use-package term+
+      :config
+      (progn
+        (use-package term+key-intercept)
+        (use-package term+mux)
+        (require 'xterm-256color)))
+
+    (defun helm-term+-sessions ()
+      (interactive)
+      (helm-other-buffer '(helm-source-term+-sessions
+                           helm-source-term+-new-session
+                           )
+                         "*helm-term+-sessions*"))
+
+
+    (defvar helm-source-term+-new-session
+      '((name . "Create new session")
+        (dummy)
+        (action . (("open session" . (lambda (name)
+                                       (when (eq name "")
+                                         (setq name system-name))
+                                       (term+mux-new (term+mux-new-session name))))
+                   ("open session in popup window" . (lambda (name)
+                                                       (popwin:popup-buffer (current-buffer))
+                                                       (when (eq name "")
+                                                         (setq name system-name))
+                                                       (term+mux-new (term+mux-new-session name))
+                                                       ))
+                   ("open session in other window" . (lambda (name)
+                                                       (when (eq name "")
+                                                         (setq name system-name))
+                                                       (term+mux-new-other-window (term+mux-new-session name))
+                                                       ))))))
+
+
+    (defvar helm-source-term+-sessions
+      `((name . "term+-session")
+        (candidates . (lambda () (helm-term+-session-list)))
+        (type . buffer)
+        (match . helm-buffer-match-major-mode)
+        (persistent-action . helm-buffers-list-persistent-action)
+        (keymap . ,helm-buffer-map)
+        (volatile)
+        (mode-line . helm-buffer-mode-line-string)
+        (persistent-help
+         . "Show this buffer / C-u \\[helm-execute-persistent-action]: Kill this buffer")))
+
+    (defun helm-term+-session-list ()
+      "Return the current list of term+ sessions.
+    Currently visible buffers are put at the end of the list.
+    See `ido-make-buffer-list' for more infos."
+      (require 'ido)
+      (let ((ido-process-ignore-lists t)
+            ido-ignored-list
+            ido-use-virtual-buffers
+            term-lists)
+        (dolist (buffer (ido-make-buffer-list nil) term-lists)
+          (when (string-match "^term:" buffer)
+            (setq term-lists (append term-lists (list buffer)))))))
+  #+END_SRC
+* ispell
+  #+BEGIN_SRC emacs-lisp
+    (setq-default ispell-program-name "aspell")
+    (eval-after-load "ispell"
+      '(add-to-list 'ispell-skip-region-alist '("[^\000-\377]+")))
+
+  #+END_SRC
+* miscellaneous
+  #+BEGIN_SRC emacs-lisp
+    (require 'generic-x)
+
+    ;; tramp
+    (require 'tramp)
+    (setq tram-default-method "ssh")
+
+    ;; Emmet
+    (add-to-list 'load-path "~/emacs.d/emmet-mode")
+    (require 'emmet-mode)
+
+    ;; direx
+    (global-set-key (kbd "C-x C-j") 'direx:jump-to-directory)
+
+    ;; scss-mode
+    (add-hook 'scss-mode-hook
+              '(setq css-indent-offset 2))
+
+    ;; ---------------------------------------------------
+    ;; paredit
+    ;; ---------------------------------------------------
+    ;; (require 'paredit)
+    ;; (add-hook 'emacs-lisp-mode-hook 'enable-paredit-mode)
+    ;; (add-hook 'lisp-interaction-mode-hook 'enable-paredit-mode)
+    ;; (add-hook 'lisp-mode-hook 'enable-paredit-mode)
+    ;; (add-hook 'ielm-mode-hook 'enable-paredit-mode)
+
+  #+END_SRC
+* popwin
+  #+BEGIN_SRC emacs-lisp
+    (use-package popwin
+      :config
+      (setq helm-samewindow nil)
+      (setq display-buffer-function 'popwin:display-buffer))
+      ;; (setq popwin:special-display-config '((":completion*" :noselect t)
+      ;;                                       ("helm" :regexp t :height 0.4)
+      ;;                                       )))
+  #+END_SRC
+* twitter
+  #+BEGIN_SRC emacs-lisp
+    (use-package twittering-mode
+      :config
+      ;認証済みaccess tokenをGnuPGで暗号化して保存する
+      (setq twittering-use-master-password t)
+
+      ;アイコン表示
+      (setq twittering-icon-mode t)
+
+      ;タイムラインを5分(300秒)間隔で更新
+      (setq twittering-timer-interval 300)
+
+      ;アイコン取得時の情報表示をデフォルトで抑制
+      (setq twittering-url-show-status nil)
+
+      ;アイコン画像を保存する
+      (setq twittering-use-icon-storage t)
+
+      ;全てのアイコンを保存する
+      (setq twittering-icon-storage-limit nil)
+
+      ;最初に開くタイムラインを設定する
+      ;; (setq twittering-initial-timeline-spec-string
+      ;;  '(":replies"
+      ;;    ":favorites"
+      ;;    ":directmessages"
+      ;;    ":home"))
+      )
+  #+END_SRC
+* w3m
+  #+BEGIN_SRC emacs-lisp
+    ;; (use-package w3m
+    ;;   :config
+    ;;   (setq browse-url-browser-function 'w3m-browse-url)
+    ;;   (autoload 'w3m-browse-url "w3m" "Ask a WWW browsser to show a URL." t)
+    ;;   (global-set-key (kbd "C-x m") 'browse-url-at-point)
+    ;;   )
+  #+END_SRC
+* eww
+  #+BEGIN_SRC emacs-lisp
+    ;; (defvar eww-disable-colorize t)
+    ;; (defun shr-colorize-region--disable (orig start end fg &optional bg &rest _)
+    ;;   (unless eww-disable-colorize
+    ;;     (funcall orig start end fg)))
+    ;; (advice-add 'shr-colorize-region :around 'shr-colorize-region--disable)
+    ;; (advice-add 'eww-colorize-region :around 'shr-colorize-region--disable)
+    ;; (defun eww-disable-color ()
+    ;;   "eww で文字色を反映させない"
+    ;;   (interactive)
+    ;;   (setq-local eww-disable-colorize t)
+    ;;   (eww-reload))
+    ;; (defun eww-enable-color ()
+    ;;   "eww で文字色を反映させる"
+    ;;   (interactive)
+    ;;   (setq-local eww-disable-colorize nil)
+    ;;   (eww-reload))
+    ;; (setq eww-search-prefix "http://www.google.co.jp/search?q=")
+  #+END_SRC
+* xmpfilter
+  #+BEGIN_SRC emacs-lisp
+    (add-to-list 'exec-path "Users/yasuoy/.rbenv/shims/")
+    (use-package rcodetools
+      :config
+      (define-key ruby-mode-map (kbd "M-p") 'xmp)
+      )
+  #+END_SRC
+* 行末のスペースを消す
+  * MEMO
+    - delete-trailing-whitespace : 行末のスペースを消す
+    - delete-blank-lines : 周辺の空行を消す
+    - setq-default
+    - memq : 第2引数のリストに第1引数が含まれているか?
+    - propertize :
+    - force-mode-line-update
+  #+BEGIN_SRC emacs-lisp
+    (defvar my/current-cleanup-state "")
+
+    ;; 行末のスペース + ファイル末尾の連続する改行の除去を行う
+    (defun my/cleanup-for-spaces ()
+      (interactive)
+      (delete-trailing-whitespace)
+      (save-excursion
+        (widen)
+        (goto-char (point-max))
+        (delete-blank-lines)))
+
+    (add-hook 'before-save-hook 'my/cleanup-for-spaces)
+
+    (setq-default mode-line-format
+                  (cons '(:eval my/current-cleanup-state)
+                        mode-line-format))
+
+    (defun toggle-cleanup-spaces ()
+      (interactive)
+      (cond ((memq 'my/cleanup-for-spaces before-save-hook)
+             (setq my/current-cleanup-state
+                   (propertize "[DT-]" 'face '((:foreground "turquoise1" :weight bold))))
+             (remove-hook 'before-save-hook 'my/cleanup-for-spaces))
+            ( t
+              (setq my/current-cleanup-state "")
+              (add-hook 'before-save-hook 'my/cleanup-for-spaces)))
+      (force-mode-line-update))
+
+    (global-set-key (kbd "M-g M-d") 'toggle-cleanup-spaces)
+  #+END_SRC
